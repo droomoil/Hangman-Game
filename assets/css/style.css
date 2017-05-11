@@ -1,0 +1,168 @@
+
+
+/* Element Styling */
+
+body {
+	background-color: #54bceb;
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+button {
+	background-color: red;
+	font-family: "Cinzel", Times, serif;
+	font-size: 150%;
+	color: #ffd204;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+
+button:hover {
+    background-color: yellow;
+    color: red;
+}
+
+
+
+.headline {
+	font-family: "Cinzel", Times, serif;
+	font-size: 330%;
+	text-align: center;
+	font-weight:900;
+	color: red;
+	margin-top: 20px;
+	line-height: 1;
+	text-shadow:
+    	-1px -2px 0 #ffd204,
+    	1px -2px 0 #ffd204,
+    	-1px 2px 0 #ffd204,
+    	1px 2px 0 #ffd204;
+}
+
+.headline2 {
+	font-family: "Cinzel", Times, serif;
+	font-size: 215%;
+	text-align: center;
+	font-weight:700;
+	color: #ffd204;
+	line-height: 1;
+	text-shadow:
+    	-1px -2px 0 red,
+    	1px -2px 0 red,
+    	-1px 2px 0 red,
+    	1px 2px 0 red;
+}
+
+.mainbar {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.dashboard {
+	margin-top: 30px;
+}
+
+.label {
+	font-size: 130%;
+	color: black;
+	font-family: "Cinzel", Times, serif;
+
+}
+
+.counter {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	color: yellow;
+	background: black;
+	border-color: red;
+	border-width: 3px;
+	margin: auto;
+	text-align: center;
+	font-size: 150%;
+	padding-top: 12px;
+	font-family: "Cinzel", Times, serif;
+
+
+}
+
+.dashboardElement {
+	text-align: center;
+
+}
+
+.dashboardLabel {
+	font-size: 120%;
+	text-align: center;
+	font-family: "Cinzel", Times, serif;
+	line-height: 2;
+}
+
+.icon {
+	font-size: 175%;
+}
+
+.glyphicon-star {
+	font-size: 700%;
+	color: gold;
+	position: absolute;
+}
+
+/* ID Styling */
+
+#hero {
+	width: 275px;
+	height: 275px;
+	margin: auto;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: -1;
+
+}
+
+#herodiv {
+	position:relative;
+}
+
+#answer {
+	font-family: "Cinzel", Times, serif;
+	font-size: 400%;
+	text-align: center;
+
+}
+
+#instructions {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 130%;
+	text-align: center;
+
+}
+
+#info {
+	margin-top: 10px;
+}
+
+#upperLeftStar {
+	left: 5%;
+	top: 0%;
+	visibility: hidden;
+}
+
+#upperRightStar {
+	right: 5%;
+	top: 0%;
+	visibility: hidden;
+
+}
+
+#lowerLeftStar {
+	left: 5%;
+	top: 70%;
+	visibility: hidden;
+}
+
+#lowerRightStar {
+	right: 5%;
+	top: 70%;
+	visibility: hidden;
+}

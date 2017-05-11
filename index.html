@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+	<title>Thomas and Friends - Engine Name Guessing Game!</title>
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:700,900" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body onload="newPlayer()">
+
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+			<p class="headline">Thomas &amp Friends</p>
+			<p class="headline2">Engine Name Guessing Game</p>
+			</div>
+		</div>
+    	<div class="row">
+        	<div class="col-md-4 col-md-offset-2 mainbar">
+        		<div id="herodiv">
+					<img src="assets/images/mystery.png" class="img-circle img-responsive float-md-right" id="hero">
+					<span class="glyphicon glyphicon-star" id=upperLeftStar></span>
+					<span class="glyphicon glyphicon-star" id=upperRightStar></span>
+					<span class="glyphicon glyphicon-star" id=lowerLeftStar></span>
+					<span class="glyphicon glyphicon-star" id=lowerRightStar></span>
+				</div>
+			</div>
+			<div class="col-md-4 float-md-left mainbar">
+				<p id="instructions">A mystery engine is riding the rails! 
+				<br>
+				Spell their name with under 10 misses!
+				<br>
+				Type the letter you want to guess:</p>
+            	<p> <span id="answer"></span></p>
+            	<button id="nextButton" type="button" onclick="newEngine()">New Mystery Engine</button>
+            	<br>
+            	<p class="label">Letters guessed already:
+            	<br>
+            	<span id="alreadyGuessed">-</span>
+            	</p>
+        	</div>	
+    	</div>
+    	<div class="row dashboard">
+    		<div class= "col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3">
+
+    			<div class="counter">
+    				<span class="icon" id="guessCounter"></span>
+    			</div>
+    			<p class="dashboardLabel">MISSES REMAINING</p>
+    		
+			</div>
+
+			<div class= "col-md-3 col-sm-3">
+
+				<div class="counter">
+    				<span class="icon" id="winCounter">0</span>
+    			</div>
+
+    			<p class="dashboardLabel">ENGINES GUESSED</p>
+
+    		</div>
+
+<!-- 			<div class= "col-md-2">
+
+				<div class="counter">
+					<span class="icon glyphicon glyphicon-question-sign" id="info"></span>
+    			</div>
+
+    			<p class="dashboardLabel">GET A HINT</p>
+
+    		</div> -->
+
+
+
+
+    	</div>
+
+        </div>
+      </div>
+    </div>
+
+<script src="assets/javascript/game.js">
+</script>
+
+</body>
+</html>
+
+
+
+
